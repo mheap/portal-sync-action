@@ -1,0 +1,12 @@
+name: Portal sync action
+description: WIP Sync action for Konnect portal
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: edit-2
+  color: orange
+inputs:
+  konnect_pat:
+    description: Konnect authentication details
+    required: true
