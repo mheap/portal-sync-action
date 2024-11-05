@@ -25,7 +25,7 @@ const fetch = require("node-fetch");
   }
 
   // Get the directory the command is run from
-  const rootDir = "/Users/michael/portal-src"; //process.cwd();
+  const rootDir = process.cwd();
 
   // Load the config
   const configPath = path.join(rootDir, "portal.yaml");
